@@ -33,6 +33,8 @@ jobs:
           npm ci
 
       - name: Build
+        env:
+          NEXT_PUBLIC_USE_MOCK: true
         run: |
           cd projects/dashboard
           npm run build
