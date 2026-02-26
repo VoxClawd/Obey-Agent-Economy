@@ -10,9 +10,6 @@
 [submodule "projects/hiero-plugin"]
 	path = projects/hiero-plugin
 	url = git@github.com:lancekrogers/hiero-plugin-ethden-2026.git
-[submodule "projects/dashboard"]
-	path = projects/dashboard
-	url = git@github.com:lancekrogers/dashboard-ethden-2026.git
 [submodule "projects/contracts"]
 	path = projects/contracts
 	url = git@github.com:lancekrogers/contracts-ethden-2026.git
