@@ -9,7 +9,8 @@ import { InferenceMetrics } from "@/components/panels/InferenceMetrics";
 import { useLiveData } from "@/hooks/useLiveData";
 import { useMockData } from "@/hooks/useMockData";
 
-const USE_MOCK = process.env.NEXT_PUBLIC_USE_MOCK === "true";
+// Force mock mode for static GitHub Pages deployment
+const USE_MOCK = true;
 
 function LiveDashboard() {
   const live = useLiveData();

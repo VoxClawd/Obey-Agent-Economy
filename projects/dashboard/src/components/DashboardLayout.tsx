@@ -3,12 +3,8 @@
 import type { ReactNode } from "react";
 
 function ConnectionStatus() {
-  const mode =
-    process.env.NEXT_PUBLIC_USE_MOCK === "true"
-      ? "Mock"
-      : process.env.NEXT_PUBLIC_USE_GRPC === "true"
-        ? "gRPC"
-        : "WebSocket";
+  // Force Mock mode for static GitHub Pages deployment
+  const mode = "Mock";
 
   return (
     <div className="flex items-center gap-2 text-sm">
